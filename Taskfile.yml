@@ -1,0 +1,16 @@
+# https://taskfile.dev
+
+version: '3'
+
+vars:
+  GREETING: Hello, World!
+  APP_NAME: resume-gen
+
+tasks:
+  build:
+    cmds:
+      - go build -o {{.APP_NAME}} main.go
+  default:
+    cmds:
+      - echo "{{.GREETING}}"
+    silent: true

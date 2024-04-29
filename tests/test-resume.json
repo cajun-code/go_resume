@@ -1,0 +1,41 @@
+{
+    "name":"Allan",
+    "address": "555 Progress Rd. Poplarville, MS 39470",
+    "phone": "555-555-5555",
+    "email": "n9QpE@example.com",
+    "experience": [
+        {
+            "title": "Software Engineer",
+            "description": "Working on the design and implementation of a new feature for the website.",
+            "company": "Acme Corp",
+            "location": "Poplarville, MS",
+            "start_date": "2020-01-01",
+            "end_date": "2021-01-01"
+        }
+    ],
+    "education": [
+        {
+            "degree": "Bachelor of Science",
+            "major": "Computer Science",
+            "institution": "University of California, Berkeley",
+            "location": "Berkeley, CA",
+            "start_date": "2015-01-01",
+            "end_date": "2018-01-01"
+        }
+    ],
+    "skills": [
+        { 
+            "name": "Java", 
+            "level": "advanced", 
+            "years": "2", 
+            "category": "Java", 
+            "show": true 
+        }
+    ],
+    "projects": [
+        {"name": "Project 1", 
+        "description": "Project 1 description", 
+        "link": "https://github.com", 
+        "show": true}
+    ]
+}
